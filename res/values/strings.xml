@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IA32 Assembly Reference</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_registers_list">RegistersList</string>
+    <string name="eax">%eax: General Purpose Register</string>
+    <string name="ecx">%ecx: General Purpose Register</string>
+    <string name="edx">%edx: General Purpose Register</string>
+    <string name="ebx">%ebx: General Purpose Register</string>
+    <string name="edi">%edi: Index Register</string>
+    <string name="esi">%esi: Index Register</string>
+    <string name="ebp">%ebp: Stack Base Pointer</string>
+    <string name="esp">%esp: Stack Top Pointer</string>
+    <string name="eip">%eip: Instruction Pointer (user cannot change it\'s value)</string>
+    <string name="title_activity_commands_list">CommandsList</string>
+    <string name="title_activity_movl_class">MovlClass</string>
+    <string name="movl_command">movl src, dest</string>
+    <string name="movl_action">Action: dest = src</string>
+    <string name="title_activity_movsbl_class">MovsblClass</string>
+    <string name="movsbl_command">movsbl src, dest</string>
+    <string name="movsbl_action">Action: dest(long) = src(byte), sign extend</string>
+    <string name="title_activity_addl_class">AddlClass</string>
+    <string name="addl_command">addl src, dest</string>
+    <string name="addl_action">Action: dest = dest + src</string>
+    <string name="title_activity_subl_class">SublClass</string>
+    <string name="subl_command">subl src, dest</string>
+    <string name="subl_action">Action: dest = dest - src</string>
+    <string name="title_activity_imull_class">ImullClass</string>
+    <string name="imull_command">imull src, dest</string>
+    <string name="imull_action">Action: dest = dest * src</string>
+    <string name="title_activity_sall_class">SallClass</string>
+    <string name="sall_command">sall src, dest</string>
+    <string name="sall_action">Action: dest = dest &lt;&lt; src (shift arithmetic left)</string>
+    <string name="sarl_command">sarl src, dest</string>
+    <string name="sarl_action">Action: dest = dest &gt;&gt; src (shift arithmetic right)</string>
+    <string name="title_activity_sarl_class">SarlClass</string>
+    <string name="shrl_command">sarl src, dest</string>
+    <string name="shrl_action">Action: dest = dest &gt;&gt; src (shift logical right)</string>
+    <string name="title_activity_shrl_class">ShrlClass</string>
+    <string name="title_activity_xorl_class">XorlClass</string>
+    <string name="xorl_command">xorl src, dest</string>
+    <string name="xorl_action">Action: dest = dest ^ src</string>
+    <string name="title_activity_andl_class">AndlClass</string>
+    <string name="andl_command">andl src, dest</string>
+    <string name="andl_action">Action: dest = dest &amp; src (bitwise and)</string>
+    <string name="title_activity_orl_class">OrlClass</string>
+    <string name="orl_command">orl src, dest</string>
+    <string name="orl_action">Action: dest = dest | src (bitwise or)</string>
+    <string name="title_activity_incl_class">InclClass</string>
+    <string name="incl_command">incl dest</string>
+    <string name="incl_action">Action: dest = dest + 1</string>
+    <string name="decl_command">decl dest</string>
+    <string name="decl_action">Action: dest = dest - 1</string>
+    <string name="title_activity_decl_class">DeclClass</string>
+    <string name="title_activity_negl_class">NeglClass</string>
+    <string name="negl_command">negl dest</string>
+    <string name="negl_action">Action: dest = -dest</string>
+    <string name="notl_command">notl dest</string>
+    <string name="notl_action">Action: dest = ~dest (bitwise not)</string>
+    <string name="title_activity_notl_class">NotlClass</string>
+    <string name="title_activity_leal_class">LealClass</string>
+    <string name="leal_command">leal src, dest</string>
+    <string name="leal_action">Action: dest = address of src</string>
+    <string name="title_activity_cmpl_class">CmplClass</string>
+    <string name="cmpl_command">cmpl src2, src1</string>
+    <string name="cmpl_action">Action: checks if src2 - src1 = 0</string>
+    <string name="testl_command">testl src2, src1</string>
+    <string name="testl_action">Action: checks if src2 &amp; src1 = 0</string>
+    <string name="title_activity_testl_class">TestlClass</string>
+    <string name="title_activity_jmp_class">JmpClass</string>
+    <string name="jmp_command">jmp label</string>
+    <string name="jmp_action">Action: jump to instruction (label) </string>
+    <string name="je_command">je label</string>
+    <string name="je_action">Action: jump to instruction (label) if equal </string>
+    <string name="jne_command">jne label</string>
+    <string name="jne_action">Action: jump to instruction (label) if not equal </string>
+    <string name="title_activity_je_class">JeClass</string>
+    <string name="jle_command">jle label</string>
+    <string name="jle_action">Action: jump to instruction (label) if less than or equal (signed) </string>
+    <string name="jl_command">jl label</string>
+    <string name="jl_action">Action: jump to instruction (label) if less than (signed) </string>
+    <string name="title_activity_jl_class">JlClass</string>
+    <string name="title_activity_jle_class">JleClass</string>
+    <string name="title_activity_jg_class">JgClass</string>
+    <string name="jg_command">jg label</string>
+    <string name="jg_action">Action: jump to instruction (label) if greater than (signed) </string>
+    <string name="title_activity_jne_class">JneClass</string>
+    <string name="jge_command">jge label</string>
+    <string name="jge_action">Action: jump to instruction (label) if greater than or equal to (signed) </string>
+    <string name="title_activity_jge_class">JgeClass</string>
+    <string name="title_activity_ja_class">JaClass</string>
+    <string name="ja_command">ja label</string>
+    <string name="ja_action">Action: jump above instruction (unsigned)</string>
+    <string name="jb_command">jb label</string>
+    <string name="jb_action">Action: jump below instruction (unsigned)</string>
+    <string name="title_activity_jb_class">JbClass</string>
+    <string name="title_activity_push_class">PushClass</string>
+    <string name="push_command">push src</string>
+    <string name="push_action">Action: push src on top of stack</string>
+    <string name="push_result" formatted="false">Result: %esp = %esp - 4, Mem[%esp] = src</string>
+    <string name="pop_command">pop dest</string>
+    <string name="pop_action">Action: pop dest from top of stack</string>
+    <string name="pop_result" formatted="false">Result: dest = Mem[%esp], %esp = %esp + 4</string>
+    <string name="title_activity_pop_class">PopClass</string>
+    <string name="call_command">call label</string>
+    <string name="call_action">Action: push address of next instruction onto stack, then jump to label</string>
+    <string name="title_activity_call_class">CallClass</string>
+    <string name="ret_command">ret</string>
+    <string name="ret_action">Action: update instruction pointer to top of stack, then pop the stack</string>
+    <string name="ret_result" formatted="false">Result: %eip = Mem[%esp], %esp = %esp + 4</string>
+    <string name="title_activity_ret_class">RetClass</string>
+    <string name="title_activity_addressing_list">AddressingList</string>
+    <string name="title_activity_immediate_class">ImmediateClass</string>
+    <string name="immediate_format">$val Val</string>
+    <string name="immediate_constant">val: constant integer value</string>
+    <string name="immediate_example">Example: movl $17, %eax</string>
+    <string name="title_activity_normal_class">NormalClass</string>
+    <string name="normal_format">(R) Mem[Reg[R]]</string>
+    <string name="normal_variable">R: register R specifies memory address</string>
+    <string name="normal_example" formatted="false">Example: movl (%ecx), %eax</string>
+    <string name="title_activity_displacement_class">DisplacementClass</string>
+    <string name="displacement_format">D(R) Mem[Reg[R]+D]</string>
+    <string name="displacement_variable1">R: register R specifies start of memory region</string>
+    <string name="displacement_variable2">D: constant displacement D specifies offest</string>
+    <string name="displacement_example" formatted="false">Example: movl 8(%ebp), %edx</string>
+    <string name="title_activity_indexed_class">IndexedClass</string>
+    <string name="indexed_format">D(Rb,Ri,S) Mem[Reg[Rb]+S*Reg[Ri]+D]</string>
+    <string name="indexed_variable1">Rb: base register - any of 8 integer registers (see registers list)</string>
+    <string name="indexed_variable2">D: constant displacement of 1, 2, or 4 bytes</string>
+    <string name="indexed_variable3">Ri: index register (any except %esp)</string>
+    <string name="indexed_variable4">S: scale (1, 2, 4, or 8)</string>
+    <string name="indexed_example" formatted="false">Example: movl 0x100(%ecx,%eax,4), %edx</string>
+    <string name="title_activity_instruction_suffixes">InstructionSuffixes</string>
+    <string name="b">b: byte</string>
+    <string name="w">w: word (2 bytes)</string>
+    <string name="l">l: long(4 bytes)</string>
+    <string name="title_activity_condition_codes">ConditionCodes</string>
+    <string name="cf">CF: Carry Flag</string>
+    <string name="zf">ZF: Zero Flag</string>
+    <string name="sf">SF: Sign Flag</string>
+    <string name="of">OF: Overflow Flag</string>
+    <string name="title_activity_reference_main">ReferenceMainActivity</string>
+    <string name="title_activity_mipsassembly">MIPSAssembly</string>
+    <string name="title_activity_ia32_examples">IA32Examples</string>
+    <string name="title_activity_ia32_arithmetic">IA32Arithmetic</string>
+    <string name="title_activity_ia32_if_else">IA32IfElse</string>
+    <string name="title_activity_ia32_for_loop">IA32ForLoop</string>
+    <string name="title_activity_ia32_while_loop">IA32WhileLoop</string>
+    <string name="title_activity_ia32_functions">IA32Functions</string>
+    <string name="title_activity_ia32_recursion">IA32Recursion</string>
+    <string name="title_activity_ia32_call_functions">IA32CallFunctions</string>
+    <string name="title_activity_mipsregisters">MIPSRegisters</string>
+    <string name="title_activity_mipsinstructions_list">MIPSInstructionsList</string>
+    <string name="title_activity_mipsarithmetic_list">MIPSArithmeticList</string>
+    <string name="title_activity_add_class">AddClass</string>
+    <string name="title_activity_addi_class">AddiClass</string>
+    <string name="title_activity_addu_class">AdduClass</string>
+    <string name="title_activity_sub_clas">SubClas</string>
+    <string name="title_activity_subu_class">SubuClass</string>
+    <string name="title_activity_subi_class">SubiClass</string>
+    <string name="title_activity_move_class">MoveClass</string>
+    <string name="title_activity_mipsshift_list">MIPSShiftList</string>
+    <string name="title_activity_sll_class">SllClass</string>
+    <string name="title_activity_srl_class">SrlClass</string>
+    <string name="title_activity_sra_class">SraClass</string>
+    <string name="title_activity_mipslogical_list">MIPSLogicalList</string>
+    <string name="title_activity_and_class">AndClass</string>
+    <string name="title_activity_andi_class">AndiClass</string>
+    <string name="title_activity_or_class">OrClass</string>
+    <string name="title_activity_ori_class">OriClass</string>
+    <string name="title_activity_xor_class">XorClass</string>
+    <string name="title_activity_nor_class">NorClass</string>
+    <string name="title_activity_mipsconditional_list">MIPSConditionalList</string>
+    <string name="title_activity_slt_class">SltClass</string>
+    <string name="title_activity_slti_class">SltiClass</string>
+    <string name="title_activity_mipsmultiply_divide">MIPSMultiplyDivide</string>
+    <string name="title_activity_mul_class">MulClass</string>
+    <string name="title_activity_div_class">DivClass</string>
+    <string name="title_activity_divu_class">DivuClass</string>
+    <string name="title_activity_mipsaccumulator_list">MIPSAccumulatorList</string>
+    <string name="title_activity_mfhi_class">MfhiClass</string>
+    <string name="title_activity_mflo_class">MfloClass</string>
+    <string name="title_activity_mipsjump_list">MIPSJumpList</string>
+    <string name="title_activity_bclass">BClass</string>
+    <string name="title_activity_beq_class">BeqClass</string>
+    <string name="title_activity_bne_class">BneClass</string>
+    <string name="title_activity_beqz_class">BeqzClass</string>
+    <string name="title_activity_bgez_class">BgezClass</string>
+    <string name="title_activity_bnez_class">BnezClass</string>
+    <string name="title_activity_bgtz_class">BgtzClass</string>
+    <string name="title_activity_blez_class">BlezClass</string>
+    <string name="title_activity_bltz_class">BltzClass</string>
+    <string name="title_activity_jclass">JClass</string>
+    <string name="title_activity_jal_class">JalClass</string>
+    <string name="title_activity_jr_class">JrClass</string>
+    <string name="title_activity_mipsload_store_list">MIPSLoadStoreList</string>
+    <string name="title_activity_lw_class">LwClass</string>
+    <string name="title_activity_la_class">LaClass</string>
+    <string name="title_activity_li_class">LiClass</string>
+    <string name="title_activity_lb_class">LbClass</string>
+    <string name="title_activity_lh_class">LhClass</string>
+    <string name="title_activity_sw_class">SwClass</string>
+    <string name="title_activity_sb_class">SbClass</string>
+    <string name="title_activity_sh_class">ShClass</string>
+    <string name="title_activity_mipsformat_list">MIPSFormatList</string>
+    <string name="title_activity_rtype_class">RtypeClass</string>
+    <string name="title_activity_itype_class">ItypeClass</string>
+    <string name="title_activity_jformat_class">JFormatClass</string>
+    <string name="title_activity_mipsaddresing_modes">MIPSAddresingModes</string>
+    <string name="title_activity_register_addressing">RegisterAddressing</string>
+    <string name="title_activity_immediate_addressing">ImmediateAddressing</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_pcrelative_addressing">PCRelativeAddressing</string>
+    <string name="title_activity_register_direct_addressing">RegisterDirectAddressing</string>
+    <string name="title_activity_pseudodirect_addressing">PseudodirectAddressing</string>
+
+</resources>

@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.listactivityexample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.listactivityexample.AssemblyReference"
+            android:label="IA32 Assembly Reference" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.AssemblyReference" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.RegistersList"
+            android:label="List of Registers" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.RegistersList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.CommandsList"
+            android:label="List of Commands" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.CommandsList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.MovlClass"
+            android:label="Instruction: movl" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.MovlClass" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.MovsblClass"
+            android:label="Instruction: movsbl" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.MovsblClass" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.AddlClass"
+            android:label="Instruction: addl" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.AddlClass" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.SublClass"
+            android:label="Instruction: subl" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.SublClass" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.ImullClass"
+            android:label="Instruction: imull" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.ImullClass" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.SallClass"
+            android:label="Instruction: sall" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.SarlClass"
+            android:label="Instruction: sarl" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.ShrlClass"
+            android:label="Instruction: shrl" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.XorlClass"
+            android:label="Instruction: xorl" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.AndlClass"
+            android:label="Instruction: andl" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.OrlClass"
+            android:label="Instruction: orl" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.InclClass"
+            android:label="Instruction: incl" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.DeclClass"
+            android:label="Instruction: decl" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.NeglClass"
+            android:label="Instruction: negl" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.NotlClass"
+            android:label="Instruction: notl" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.LealClass"
+            android:label="Instruction: leal" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.CmplClass"
+            android:label="Instruction: cmpl" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.TestlClass"
+            android:label="Instruction: testl" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.JmpClass"
+            android:label="Instruction: jmp" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.JeClass"
+            android:label="Instruction: je" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.JlClass"
+            android:label="Instruction: jl" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.JleClass"
+            android:label="Instruction: jle" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.JgClass"
+            android:label="Instruction: jg" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.JneClass"
+            android:label="Instruction: jne" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.JgeClass"
+            android:label="Instruction: jge" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.JaClass"
+            android:label="Instruction: ja" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.JbClass"
+            android:label="Instruction: jb" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.PushClass"
+            android:label="Instruction: push" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.PopClass"
+            android:label="Instruction: pop" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.CallClass"
+            android:label="Instruction: call" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.RetClass"
+            android:label="Instruction: ret" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.AddressingList"
+            android:label="Addressing Modes" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.AddressingList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.ImmediateClass"
+            android:label="Immediate Addressing" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.NormalClass"
+            android:label="Normal Addressing" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.DisplacementClass"
+            android:label="Displacement Addressing" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.IndexedClass"
+            android:label="Indexed Addressing" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.InstructionSuffixes"
+            android:label="Instruction Suffixes" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.InstructionSuffixes" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.ConditionCodes"
+            android:label="Condition Codes" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.ConditionCodes" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.ReferenceMainActivity"
+            android:label="Assembly Language Reference" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.MIPSAssembly"
+            android:label="MIPS ISA Reference" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.MIPSAssembly" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.IA32Examples"
+            android:label="IA32 Assembly Examples" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.IA32Examples" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.ia32examples.IA32Arithmetic"
+            android:label="Example: arithmetic" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.ia32examples.IA32Arithmetic" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.ia32examples.IA32IfElse"
+            android:label="Example: if/else-statement" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.ia32examples.IA32IfElse" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.ia32examples.IA32ForLoop"
+            android:label="Example: for-loop" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.ia32examples.IA32ForLoop" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.ia32examples.IA32WhileLoop"
+            android:label="Example: while-loop" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.ia32examples.IA32WhileLoop" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.ia32examples.IA32Functions"
+            android:label="Example: functions/procedures" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.ia32examples.IA32Functions" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.ia32examples.IA32Recursion"
+            android:label="Example: recursion" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.ia32examples.IA32Recursion" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.ia32examples.IA32CallFunctions"
+            android:label="Example: calling other functions" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.ia32examples.IA32CallFunctions" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.MIPSRegisters"
+            android:label="MIPS Registers + Descriptions" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.MIPSRegisters" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.MIPSInstructionsList"
+            android:label="MIPS Instructions List" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.MIPSInstructionsList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.MIPSArithmeticList"
+            android:label="MIPS Arithmetic Instructions" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.MIPSArithmeticList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.AddClass"
+            android:label="Instruction: add" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.AddClass" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.AddiClass"
+            android:label="Instruction: addi" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.AdduClass"
+            android:label="Instruction: addu" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.SubClass"
+            android:label="Instruction: sub" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.SubuClass"
+            android:label="Instruction: subu" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.SubiClass"
+            android:label="Instruction: subi" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.MoveClass"
+            android:label="Instruction: move" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.MIPSShiftList"
+            android:label="MIPS Shift Instructions" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.MIPSShiftList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.SllClass"
+            android:label="Instruction: sll" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.SrlClass"
+            android:label="Instruction: srl" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.SraClass"
+            android:label="Instruction: sra" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.MIPSLogicalList"
+            android:label="MIPS Logical Instructions" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.MIPSLogicalList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.AndClass"
+            android:label="Instruction: and" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.AndiClass"
+            android:label="Instruction: andi" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.OrClass"
+            android:label="Instruction: or" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.OriClass"
+            android:label="Instruction: ori" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.XorClass"
+            android:label="Instruction: xor" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.NorClass"
+            android:label="Instruction: nor" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.MIPSConditionalList"
+            android:label="MIPS Conditional Instructions" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.MIPSConditionalList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.SltClass"
+            android:label="Instruction: slt" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.SltiClass"
+            android:label="Instruction: slti" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.MIPSMultiplyDivide"
+            android:label="MIPS Multiply and Divide Instructions" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.MIPSMultiplyDivide" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.MulClass"
+            android:label="Instruction: mul" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.DivClass"
+            android:label="Instruction: div" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.DivuClass"
+            android:label="Instruction: divu" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.MIPSAccumulatorList"
+            android:label="MIPS Accumulator Access Instructions" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.MIPSAccumulatorList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.MfhiClass"
+            android:label="Instruction: mfhi" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.MfloClass"
+            android:label="Instruction: mflo" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.MIPSJumpList"
+            android:label="MIPS Jump and Branch Instructions" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.MIPSJumpList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.BClass"
+            android:label="Instruction: b" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.BeqClass"
+            android:label="Instruction: beq" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.BneClass"
+            android:label="Instruction: bne" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.BeqzClass"
+            android:label="Instruction: beqz" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.BgezClass"
+            android:label="Instruction: bgez" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.BnezClass"
+            android:label="Instruction: bnez" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.BgtzClass"
+            android:label="Instruction: bgtz" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.BlezClass"
+            android:label="Instruction: blez" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.BltzClass"
+            android:label="Instruction: bltz" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.JClass"
+            android:label="Instruction: j" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.JalClass"
+            android:label="Instruction: jal" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.JrClass"
+            android:label="Instruction: jr" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.MIPSLoadStoreList"
+            android:label="MIPS Load and Store Instructions" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.MIPSLoadStoreList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.LwClass"
+            android:label="Instruction: lw" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.LaClass"
+            android:label="Instruction: la" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.LiClass"
+            android:label="Instruction: li" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.LbClass"
+            android:label="Instruction: lb" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.LhClass"
+            android:label="Instruction: lh" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.SwClass"
+            android:label="Instruction: sw" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.SbClass"
+            android:label="Instruction: sb" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.ShClass"
+            android:label="Instruction: sh" >
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.MIPSFormatList"
+            android:label="MIPS Instruction Types and Formats" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.MIPSFormatList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.RtypeClass"
+            android:label="R-type Instruction Format" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.RtypeClass" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.ItypeClass"
+            android:label="I-type Instruction Format" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.ItypeClass" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.JFormatClass"
+            android:label="Jump Instruction Format" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.JFormatClass" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.MIPSAddresingModes"
+            android:label="MIPS Addressing Modes" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.MIPSAddresingModes" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.RegisterAddressing"
+            android:label="Register Addressing" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.RegisterAddressing" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.ImmediateAddressing"
+            android:label="Immediate Addressing" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.ImmediateAddressing" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.BaseActivity"
+            android:label="Base Addressing" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.BaseActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.PCRelativeAddressing"
+            android:label="PC Relative Addressing" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.PCRelativeAddressing" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.RegisterDirectAddressing"
+            android:label="Register Direct Addressing" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.RegisterDirectAddressing" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.listactivityexample.mips.PseudodirectAddressing"
+            android:label="Pseudodirect Addressing" >
+            <intent-filter>
+                <action android:name="com.example.listactivityexample.mips.PseudodirectAddressing" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

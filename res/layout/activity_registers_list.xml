@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+        
+     <TextView android:id="@+id/eax"
+           android:layout_width="match_parent" 
+           android:layout_height="wrap_content"
+           android:gravity="left"          
+           android:text="@string/eax"
+           android:textStyle="bold"
+           android:textSize="20sp">
+     </TextView> 
+     
+     <TextView android:id="@+id/ecx"
+           android:layout_width="match_parent" 
+           android:layout_height="wrap_content"
+           android:gravity="left"          
+           android:text="@string/ecx"
+           android:textStyle="bold"
+           android:textSize="20sp">
+     </TextView> 
+     
+     <TextView android:id="@+id/ebx"
+           android:layout_width="match_parent" 
+           android:layout_height="wrap_content"
+           android:gravity="left"          
+           android:text="@string/ebx"
+           android:textStyle="bold"
+           android:textSize="20sp">
+     </TextView> 
+     
+     <TextView android:id="@+id/edx"
+           android:layout_width="match_parent" 
+           android:layout_height="wrap_content"
+           android:gravity="left"      
+           android:text="@string/edx"
+           android:textStyle="bold"
+           android:textSize="20sp">
+     </TextView> 
+     
+     <TextView android:id="@+id/edi"
+           android:layout_width="match_parent" 
+           android:layout_height="wrap_content"
+           android:gravity="left"          
+           android:text="@string/edi"
+           android:textStyle="bold"
+           android:textSize="20sp">
+     </TextView> 
+     
+     <TextView android:id="@+id/esi"
+           android:layout_width="match_parent" 
+           android:layout_height="wrap_content"
+           android:gravity="left"          
+           android:text="@string/esi"
+           android:textStyle="bold"
+           android:textSize="20sp">
+     </TextView> 
+     
+     <TextView android:id="@+id/ebp"
+           android:layout_width="match_parent" 
+           android:layout_height="wrap_content"
+           android:gravity="left"          
+           android:text="@string/ebp"
+           android:textStyle="bold"
+           android:textSize="20sp">
+     </TextView> 
+     
+     <TextView android:id="@+id/esp"
+           android:layout_width="match_parent" 
+           android:layout_height="wrap_content"
+           android:gravity="left"          
+           android:text="@string/esp"
+           android:textStyle="bold"
+           android:textSize="20sp">
+     </TextView>
+     
+     <TextView android:id="@+id/eip"
+           android:layout_width="match_parent" 
+           android:layout_height="wrap_content"
+           android:gravity="left"          
+           android:text="@string/eip"
+           android:textStyle="bold"
+           android:textSize="20sp">
+     </TextView> 
+     
+     <ImageView
+         android:id="@+id/registers_image"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:src="@drawable/registers" />
+     
+
+</LinearLayout>
